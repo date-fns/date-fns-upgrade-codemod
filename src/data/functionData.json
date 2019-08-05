@@ -1,0 +1,408 @@
+{
+  "closestIndexTo": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": true }
+  ],
+  "closestTo": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": true }
+  ],
+  "compareAsc": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "compareDesc": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "distanceInWords": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "distanceInWordsStrict": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "distanceInWordsToNow": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "format": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false, "convertTokens": true },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "isAfter": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isBefore": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isDate": [{ "hasDate": true, "hasArrayDate": false }],
+  "isEqual": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isFuture": [{ "hasDate": true, "hasArrayDate": false }],
+  "isPast": [{ "hasDate": true, "hasArrayDate": false }],
+  "isValid": [{ "hasDate": true, "hasArrayDate": false }],
+  "max": [{ "hasDate": true, "hasArrayDate": false }],
+  "min": [{ "hasDate": true, "hasArrayDate": false }],
+  "parse": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "areRangesOverlapping": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "getOverlappingDaysInRanges": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isWithinRange": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "getTime": [{ "hasDate": true, "hasArrayDate": false }],
+  "addMilliseconds": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInMilliseconds": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "getMilliseconds": [{ "hasDate": true, "hasArrayDate": false }],
+  "setMilliseconds": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "subMilliseconds": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "addSeconds": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInSeconds": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "endOfSecond": [{ "hasDate": true, "hasArrayDate": false }],
+  "getSeconds": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSameSecond": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isThisSecond": [{ "hasDate": true, "hasArrayDate": false }],
+  "setSeconds": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "startOfSecond": [{ "hasDate": true, "hasArrayDate": false }],
+  "subSeconds": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "addMinutes": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInMinutes": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "endOfMinute": [{ "hasDate": true, "hasArrayDate": false }],
+  "getMinutes": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSameMinute": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isThisMinute": [{ "hasDate": true, "hasArrayDate": false }],
+  "setMinutes": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "startOfMinute": [{ "hasDate": true, "hasArrayDate": false }],
+  "subMinutes": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "addHours": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInHours": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "endOfHour": [{ "hasDate": true, "hasArrayDate": false }],
+  "getHours": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSameHour": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isThisHour": [{ "hasDate": true, "hasArrayDate": false }],
+  "setHours": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "startOfHour": [{ "hasDate": true, "hasArrayDate": false }],
+  "subHours": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "addDays": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInCalendarDays": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "differenceInDays": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "eachDay": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "endOfDay": [{ "hasDate": true, "hasArrayDate": false }],
+  "endOfToday": [],
+  "endOfTomorrow": [],
+  "endOfYesterday": [],
+  "getDate": [{ "hasDate": true, "hasArrayDate": false }],
+  "getDayOfYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSameDay": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isToday": [{ "hasDate": true, "hasArrayDate": false }],
+  "isTomorrow": [{ "hasDate": true, "hasArrayDate": false }],
+  "isYesterday": [{ "hasDate": true, "hasArrayDate": false }],
+  "setDate": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "setDayOfYear": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "startOfDay": [{ "hasDate": true, "hasArrayDate": false }],
+  "startOfToday": [],
+  "startOfTomorrow": [],
+  "startOfYesterday": [],
+  "subDays": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "getDay": [{ "hasDate": true, "hasArrayDate": false }],
+  "getISODay": [{ "hasDate": true, "hasArrayDate": false }],
+  "isFriday": [{ "hasDate": true, "hasArrayDate": false }],
+  "isMonday": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSaturday": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSunday": [{ "hasDate": true, "hasArrayDate": false }],
+  "isThursday": [{ "hasDate": true, "hasArrayDate": false }],
+  "isTuesday": [{ "hasDate": true, "hasArrayDate": false }],
+  "isWednesday": [{ "hasDate": true, "hasArrayDate": false }],
+  "isWeekend": [{ "hasDate": true, "hasArrayDate": false }],
+  "setDay": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "setISODay": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "addWeeks": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInCalendarWeeks": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInWeeks": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "endOfWeek": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "isSameWeek": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "isThisWeek": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "lastDayOfWeek": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "startOfWeek": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "subWeeks": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInCalendarISOWeeks": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "endOfISOWeek": [{ "hasDate": true, "hasArrayDate": false }],
+  "getISOWeek": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSameISOWeek": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isThisISOWeek": [{ "hasDate": true, "hasArrayDate": false }],
+  "lastDayOfISOWeek": [{ "hasDate": true, "hasArrayDate": false }],
+  "setISOWeek": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "startOfISOWeek": [{ "hasDate": true, "hasArrayDate": false }],
+  "addMonths": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInCalendarMonths": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "differenceInMonths": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "endOfMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "getDaysInMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "getMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "isFirstDayOfMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "isLastDayOfMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSameMonth": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isThisMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "lastDayOfMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "setMonth": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "startOfMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "subMonths": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "addQuarters": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInCalendarQuarters": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "differenceInQuarters": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "endOfQuarter": [{ "hasDate": true, "hasArrayDate": false }],
+  "getQuarter": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSameQuarter": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isThisQuarter": [{ "hasDate": true, "hasArrayDate": false }],
+  "lastDayOfQuarter": [{ "hasDate": true, "hasArrayDate": false }],
+  "setQuarter": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "startOfQuarter": [{ "hasDate": true, "hasArrayDate": false }],
+  "subQuarters": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "addYears": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInCalendarYears": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "differenceInYears": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "endOfYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "getDaysInYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "getYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "isLeapYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSameYear": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isThisYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "lastDayOfYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "setYear": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "startOfYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "subYears": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "addISOYears": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "differenceInCalendarISOYears": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "differenceInISOYears": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "endOfISOYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "getISOWeeksInYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "getISOYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "isSameISOYear": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": true, "hasArrayDate": false }
+  ],
+  "isThisISOYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "lastDayOfISOYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "setISOYear": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ],
+  "startOfISOYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "subISOYears": [
+    { "hasDate": true, "hasArrayDate": false },
+    { "hasDate": false, "hasArrayDate": false }
+  ]
+}

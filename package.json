@@ -1,0 +1,41 @@
+{
+  "name": "date-fns-codemod",
+  "version": "1.0.0",
+  "description": "date-fnn codemod 1.x -> 2.0",
+  "main": "index.ts",
+  "author": "Deniss Kozickis",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/jscodeshift": "^0.6.2",
+    "@types/node": "^12.6.8",
+    "husky": "^3.0.2",
+    "jest": "^24.8.0",
+    "jscodeshift": "^0.6.4",
+    "lint-staged": "^9.2.1",
+    "prettier": "^1.18.2",
+    "transform-imports": "^2.1.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier"
+    ],
+    "*.{js,jsx}": [
+      "prettier"
+    ]
+  }
+}

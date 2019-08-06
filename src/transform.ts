@@ -1,6 +1,6 @@
 import { camelCase } from 'change-case'
 
-import { API, FileInfo } from 'jscodeshift/src/core'
+import { API, FileInfo, Options } from 'jscodeshift/src/core'
 import { ImportDefinition } from './types/importDefinition'
 import { CodeMap } from './utils/parse'
 import { ExpressionKind, SpreadElementKind } from 'ast-types/gen/kinds'
@@ -32,8 +32,24 @@ const lastPath = (
   c: Collection<ImportDeclaration> | Collection<VariableDeclaration>
 ) => c.at(-1).paths()[0]
 
-const dateFnsCodemod = (fileInfo: FileInfo, api: API) => {
-  const j = api.jscodeshift.withParser('babylon')
+const getParser = (options: Options) => {
+  switch (options.parser) {
+    case 'babylon':
+      return require('jscodeshift/parser/babylon')(options)
+    case 'flow':
+      return require('jscodeshift/parser/flow')(options)
+    case 'ts':
+      return require('jscodeshift/parser/ts')(options)
+    case 'tsx':
+      return require('jscodeshift/parser/tsx')(options)
+    case 'babel':
+    default:
+      return require('jscodeshift/parser/babel5Compat')(options)
+  }
+}
+
+const dateFnsCodemod = (fileInfo: FileInfo, api: API, options: Options) => {
+  const j = api.jscodeshift
 
   const importSpecifiers: ImportSpecifier[] = []
 
@@ -100,6 +116,9 @@ const dateFnsCodemod = (fileInfo: FileInfo, api: API) => {
             importDef.source = `date-fns/${libraryName}`
           }
         })
+    },
+    {
+      parser: getParser(options)
     }
   )
 

@@ -1,13 +1,14 @@
-import * as importedFormat from 'date-fns/format'
-import closestToIndex from 'date-fns/closestToIndex'
-import addSeconds from 'date-fns/addSeconds'
+const { format, closestToIndex, addSeconds } = require('date-fns')
+
+const {
+  legacyParse,
+  legacyParseMap,
+  convertTokens
+} = require('date-fns-upgrade')
 
 const dateIs = '2019-07-01'
 
-const formattedDate = importedFormat(
-  legacyParse('2019-07-01'),
-  convertTokens('MM-DD')
-)
+const formatMePlease = format(legacyParse('2019-07-01'), convertTokens('MM-DD'))
 const closestIndex = closestToIndex(
   legacyParse(new Date(2015, 8, 6)),
   legacyParseMap([

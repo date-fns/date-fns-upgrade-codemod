@@ -2,14 +2,14 @@
   "Common Helpers": [
     {
       "type": "jsdoc",
-      "urlId": "closestIndexTo",
+      "urlId": "closestToIndex",
       "category": "Common Helpers",
-      "title": "closestIndexTo",
+      "title": "closestToIndex",
       "description": "Return an index of the closest date from the array comparing to the given date.",
       "content": {
-        "id": "closestIndexTo",
-        "longname": "closestIndexTo",
-        "name": "closestIndexTo",
+        "id": "closestToIndex",
+        "longname": "closestToIndex",
+        "name": "closestToIndex",
         "scope": "global",
         "kind": "function",
         "description": "Return an index of the closest date from the array comparing to the given date.",
@@ -30,7 +30,7 @@
           }
         ],
         "examples": [
-          "// Which date is closer to 6 September 2015?\nvar dateToCompare = new Date(2015, 8, 6)\nvar datesArray = [\n  new Date(2015, 0, 1),\n  new Date(2016, 0, 1),\n  new Date(2017, 0, 1)\n]\nvar result = closestIndexTo(dateToCompare, datesArray)\n//=> 1"
+          "// Which date is closer to 6 September 2015?\nvar dateToCompare = new Date(2015, 8, 6)\nvar datesArray = [\n  new Date(2015, 0, 1),\n  new Date(2016, 0, 1),\n  new Date(2017, 0, 1)\n]\nvar result = closestToIndex(dateToCompare, datesArray)\n//=> 1"
         ],
         "returns": [
           {
@@ -76,19 +76,19 @@
       "usage": {
         "commonjs": {
           "title": "CommonJS",
-          "code": "var closestIndexTo = require('date-fns/closest_index_to')"
+          "code": "var closestToIndex = require('date-fns/closest_index_to')"
         },
         "umd": {
           "title": "UMD",
-          "code": "var closestIndexTo = dateFns.closestIndexTo"
+          "code": "var closestToIndex = dateFns.closestToIndex"
         },
         "es2015": {
           "title": "ES 2015",
-          "code": "import closestIndexTo from 'date-fns/closest_index_to'"
+          "code": "import closestToIndex from 'date-fns/closest_index_to'"
         }
       },
       "usageTabs": ["commonjs", "umd", "es2015"],
-      "syntax": "closestIndexTo(dateToCompare, datesArray)"
+      "syntax": "closestToIndex(dateToCompare, datesArray)"
     },
     {
       "type": "jsdoc",

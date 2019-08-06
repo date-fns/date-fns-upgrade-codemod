@@ -1,408 +1,408 @@
 {
-  "closestIndexTo": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": true }
+  "closestToIndex": [
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": true }
   ],
   "closestTo": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": true }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": true }
   ],
   "compareAsc": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "compareDesc": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "distanceInWords": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "distanceInWordsStrict": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "distanceInWordsToNow": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "format": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false, "convertTokens": true },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false, "convertTokens": true },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "isAfter": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "isBefore": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isDate": [{ "hasDate": true, "hasArrayDate": false }],
+  "isDate": [{ "legacyParse": true, "legacyParseMap": false }],
   "isEqual": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isFuture": [{ "hasDate": true, "hasArrayDate": false }],
-  "isPast": [{ "hasDate": true, "hasArrayDate": false }],
-  "isValid": [{ "hasDate": true, "hasArrayDate": false }],
-  "max": [{ "hasDate": true, "hasArrayDate": false }],
-  "min": [{ "hasDate": true, "hasArrayDate": false }],
+  "isFuture": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isPast": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isValid": [{ "legacyParse": true, "legacyParseMap": false }],
+  "max": [{ "legacyParse": true, "legacyParseMap": false }],
+  "min": [{ "legacyParse": true, "legacyParseMap": false }],
   "parse": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "areRangesOverlapping": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "getOverlappingDaysInRanges": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "isWithinRange": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "getTime": [{ "hasDate": true, "hasArrayDate": false }],
+  "getTime": [{ "legacyParse": true, "legacyParseMap": false }],
   "addMilliseconds": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInMilliseconds": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "getMilliseconds": [{ "hasDate": true, "hasArrayDate": false }],
+  "getMilliseconds": [{ "legacyParse": true, "legacyParseMap": false }],
   "setMilliseconds": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "subMilliseconds": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "addSeconds": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInSeconds": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "endOfSecond": [{ "hasDate": true, "hasArrayDate": false }],
-  "getSeconds": [{ "hasDate": true, "hasArrayDate": false }],
+  "endOfSecond": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getSeconds": [{ "legacyParse": true, "legacyParseMap": false }],
   "isSameSecond": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isThisSecond": [{ "hasDate": true, "hasArrayDate": false }],
+  "isThisSecond": [{ "legacyParse": true, "legacyParseMap": false }],
   "setSeconds": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "startOfSecond": [{ "hasDate": true, "hasArrayDate": false }],
+  "startOfSecond": [{ "legacyParse": true, "legacyParseMap": false }],
   "subSeconds": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "addMinutes": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInMinutes": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "endOfMinute": [{ "hasDate": true, "hasArrayDate": false }],
-  "getMinutes": [{ "hasDate": true, "hasArrayDate": false }],
+  "endOfMinute": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getMinutes": [{ "legacyParse": true, "legacyParseMap": false }],
   "isSameMinute": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isThisMinute": [{ "hasDate": true, "hasArrayDate": false }],
+  "isThisMinute": [{ "legacyParse": true, "legacyParseMap": false }],
   "setMinutes": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "startOfMinute": [{ "hasDate": true, "hasArrayDate": false }],
+  "startOfMinute": [{ "legacyParse": true, "legacyParseMap": false }],
   "subMinutes": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "addHours": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInHours": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "endOfHour": [{ "hasDate": true, "hasArrayDate": false }],
-  "getHours": [{ "hasDate": true, "hasArrayDate": false }],
+  "endOfHour": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getHours": [{ "legacyParse": true, "legacyParseMap": false }],
   "isSameHour": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isThisHour": [{ "hasDate": true, "hasArrayDate": false }],
+  "isThisHour": [{ "legacyParse": true, "legacyParseMap": false }],
   "setHours": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "startOfHour": [{ "hasDate": true, "hasArrayDate": false }],
+  "startOfHour": [{ "legacyParse": true, "legacyParseMap": false }],
   "subHours": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "addDays": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInCalendarDays": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "differenceInDays": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "eachDay": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "endOfDay": [{ "hasDate": true, "hasArrayDate": false }],
+  "endOfDay": [{ "legacyParse": true, "legacyParseMap": false }],
   "endOfToday": [],
   "endOfTomorrow": [],
   "endOfYesterday": [],
-  "getDate": [{ "hasDate": true, "hasArrayDate": false }],
-  "getDayOfYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "getDate": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getDayOfYear": [{ "legacyParse": true, "legacyParseMap": false }],
   "isSameDay": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isToday": [{ "hasDate": true, "hasArrayDate": false }],
-  "isTomorrow": [{ "hasDate": true, "hasArrayDate": false }],
-  "isYesterday": [{ "hasDate": true, "hasArrayDate": false }],
+  "isToday": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isTomorrow": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isYesterday": [{ "legacyParse": true, "legacyParseMap": false }],
   "setDate": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "setDayOfYear": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "startOfDay": [{ "hasDate": true, "hasArrayDate": false }],
+  "startOfDay": [{ "legacyParse": true, "legacyParseMap": false }],
   "startOfToday": [],
   "startOfTomorrow": [],
   "startOfYesterday": [],
   "subDays": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "getDay": [{ "hasDate": true, "hasArrayDate": false }],
-  "getISODay": [{ "hasDate": true, "hasArrayDate": false }],
-  "isFriday": [{ "hasDate": true, "hasArrayDate": false }],
-  "isMonday": [{ "hasDate": true, "hasArrayDate": false }],
-  "isSaturday": [{ "hasDate": true, "hasArrayDate": false }],
-  "isSunday": [{ "hasDate": true, "hasArrayDate": false }],
-  "isThursday": [{ "hasDate": true, "hasArrayDate": false }],
-  "isTuesday": [{ "hasDate": true, "hasArrayDate": false }],
-  "isWednesday": [{ "hasDate": true, "hasArrayDate": false }],
-  "isWeekend": [{ "hasDate": true, "hasArrayDate": false }],
+  "getDay": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getISODay": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isFriday": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isMonday": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isSaturday": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isSunday": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isThursday": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isTuesday": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isWednesday": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isWeekend": [{ "legacyParse": true, "legacyParseMap": false }],
   "setDay": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "setISODay": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "addWeeks": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInCalendarWeeks": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInWeeks": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "endOfWeek": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "isSameWeek": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "isThisWeek": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "lastDayOfWeek": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "startOfWeek": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "subWeeks": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInCalendarISOWeeks": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "endOfISOWeek": [{ "hasDate": true, "hasArrayDate": false }],
-  "getISOWeek": [{ "hasDate": true, "hasArrayDate": false }],
+  "endOfISOWeek": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getISOWeek": [{ "legacyParse": true, "legacyParseMap": false }],
   "isSameISOWeek": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isThisISOWeek": [{ "hasDate": true, "hasArrayDate": false }],
-  "lastDayOfISOWeek": [{ "hasDate": true, "hasArrayDate": false }],
+  "isThisISOWeek": [{ "legacyParse": true, "legacyParseMap": false }],
+  "lastDayOfISOWeek": [{ "legacyParse": true, "legacyParseMap": false }],
   "setISOWeek": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "startOfISOWeek": [{ "hasDate": true, "hasArrayDate": false }],
+  "startOfISOWeek": [{ "legacyParse": true, "legacyParseMap": false }],
   "addMonths": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInCalendarMonths": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "differenceInMonths": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "endOfMonth": [{ "hasDate": true, "hasArrayDate": false }],
-  "getDaysInMonth": [{ "hasDate": true, "hasArrayDate": false }],
-  "getMonth": [{ "hasDate": true, "hasArrayDate": false }],
-  "isFirstDayOfMonth": [{ "hasDate": true, "hasArrayDate": false }],
-  "isLastDayOfMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "endOfMonth": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getDaysInMonth": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getMonth": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isFirstDayOfMonth": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isLastDayOfMonth": [{ "legacyParse": true, "legacyParseMap": false }],
   "isSameMonth": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isThisMonth": [{ "hasDate": true, "hasArrayDate": false }],
-  "lastDayOfMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "isThisMonth": [{ "legacyParse": true, "legacyParseMap": false }],
+  "lastDayOfMonth": [{ "legacyParse": true, "legacyParseMap": false }],
   "setMonth": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "startOfMonth": [{ "hasDate": true, "hasArrayDate": false }],
+  "startOfMonth": [{ "legacyParse": true, "legacyParseMap": false }],
   "subMonths": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "addQuarters": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInCalendarQuarters": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "differenceInQuarters": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "endOfQuarter": [{ "hasDate": true, "hasArrayDate": false }],
-  "getQuarter": [{ "hasDate": true, "hasArrayDate": false }],
+  "endOfQuarter": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getQuarter": [{ "legacyParse": true, "legacyParseMap": false }],
   "isSameQuarter": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isThisQuarter": [{ "hasDate": true, "hasArrayDate": false }],
-  "lastDayOfQuarter": [{ "hasDate": true, "hasArrayDate": false }],
+  "isThisQuarter": [{ "legacyParse": true, "legacyParseMap": false }],
+  "lastDayOfQuarter": [{ "legacyParse": true, "legacyParseMap": false }],
   "setQuarter": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "startOfQuarter": [{ "hasDate": true, "hasArrayDate": false }],
+  "startOfQuarter": [{ "legacyParse": true, "legacyParseMap": false }],
   "subQuarters": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "addYears": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInCalendarYears": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "differenceInYears": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "endOfYear": [{ "hasDate": true, "hasArrayDate": false }],
-  "getDaysInYear": [{ "hasDate": true, "hasArrayDate": false }],
-  "getYear": [{ "hasDate": true, "hasArrayDate": false }],
-  "isLeapYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "endOfYear": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getDaysInYear": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getYear": [{ "legacyParse": true, "legacyParseMap": false }],
+  "isLeapYear": [{ "legacyParse": true, "legacyParseMap": false }],
   "isSameYear": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isThisYear": [{ "hasDate": true, "hasArrayDate": false }],
-  "lastDayOfYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "isThisYear": [{ "legacyParse": true, "legacyParseMap": false }],
+  "lastDayOfYear": [{ "legacyParse": true, "legacyParseMap": false }],
   "setYear": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "startOfYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "startOfYear": [{ "legacyParse": true, "legacyParseMap": false }],
   "subYears": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "addISOYears": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
   "differenceInCalendarISOYears": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
   "differenceInISOYears": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "endOfISOYear": [{ "hasDate": true, "hasArrayDate": false }],
-  "getISOWeeksInYear": [{ "hasDate": true, "hasArrayDate": false }],
-  "getISOYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "endOfISOYear": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getISOWeeksInYear": [{ "legacyParse": true, "legacyParseMap": false }],
+  "getISOYear": [{ "legacyParse": true, "legacyParseMap": false }],
   "isSameISOYear": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": true, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": true, "legacyParseMap": false }
   ],
-  "isThisISOYear": [{ "hasDate": true, "hasArrayDate": false }],
-  "lastDayOfISOYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "isThisISOYear": [{ "legacyParse": true, "legacyParseMap": false }],
+  "lastDayOfISOYear": [{ "legacyParse": true, "legacyParseMap": false }],
   "setISOYear": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ],
-  "startOfISOYear": [{ "hasDate": true, "hasArrayDate": false }],
+  "startOfISOYear": [{ "legacyParse": true, "legacyParseMap": false }],
   "subISOYears": [
-    { "hasDate": true, "hasArrayDate": false },
-    { "hasDate": false, "hasArrayDate": false }
+    { "legacyParse": true, "legacyParseMap": false },
+    { "legacyParse": false, "legacyParseMap": false }
   ]
 }

@@ -1,9 +1,10 @@
 import { format as importedFormat, closestToIndex, addSeconds } from 'date-fns'
-import { convertTokens, legacyParse, legacyParseMap } from 'date-fns-upgrade'
+
+import { legacyParse, legacyParseMap, convertTokens } from 'date-fns-upgrade'
 
 const dateIs = '2019-07-01'
 
-const formattedDate = importedFormat(
+const format = importedFormat(
   legacyParse('2019-07-01'),
   convertTokens('MM-DD')
 )

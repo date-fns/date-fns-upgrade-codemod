@@ -1,28 +1,29 @@
-import { JSDocInterface } from './JSDocInterface'
-
+import { JSDocInterface } from '../types/JSDocInterface'
 const fs = require('fs')
 const path = require('path')
 const jsDocData = require('./JSDoc.json') as JSDocInterface
 
-type FunctionHasDate = {
-  hasDate: boolean
-  hasArrayDate: boolean
-  convertTokens?: boolean
+type FunctionLegacyMap = {
+  [key: string]: boolean;
+  legacyParse: boolean
+  legacyParseMap: boolean
+  convertTokens: boolean
 }
 
 export type CodeMap = {
-  [functionName: string]: FunctionHasDate[]
+  [functionName: string]: FunctionLegacyMap[]
 }
 
 const codeMap: CodeMap = {}
 
 Object.values(jsDocData).forEach(value =>
   value.forEach(({ title, args }) => {
-    codeMap[title] = args.reduce<FunctionHasDate[]>(
+    codeMap[title] = args.reduce<FunctionLegacyMap[]>(
       (prevValue, { type: { names } }) => {
         prevValue.push({
-          hasDate: names.includes('Date') || names.includes('*'),
-          hasArrayDate: names.includes('Array.<Date>')
+          legacyParse: names.includes('Date') || names.includes('*'),
+          legacyParseMap: names.includes('Array.<Date>'),
+          convertTokens: title === "format",
         })
 
         return prevValue

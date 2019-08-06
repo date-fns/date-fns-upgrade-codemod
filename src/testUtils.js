@@ -72,7 +72,7 @@ function runTest(dirName, transformName, options, testFilePrefix) {
     testFilePrefix = transformName
   }
 
-  const fixtureDir = path.join(dirName, '..', '..', '__testfixtures__')
+  const fixtureDir = path.join(dirName, 'fixtures')
   const inputPath = path.join(fixtureDir, testFilePrefix + '.input.js')
   const source = fs.readFileSync(inputPath, 'utf8')
   const expectedOutput = fs.readFileSync(

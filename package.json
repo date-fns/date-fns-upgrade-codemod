@@ -10,6 +10,7 @@
     "@types/jest": "^24.0.15",
     "@types/jscodeshift": "^0.6.2",
     "@types/node": "^12.6.8",
+    "change-case": "^3.1.0",
     "husky": "^3.0.2",
     "jest": "^24.8.0",
     "jscodeshift": "^0.6.4",
@@ -23,7 +24,8 @@
     "node": ">=12"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "tsc": "tsc"
   },
   "husky": {
     "hooks": {

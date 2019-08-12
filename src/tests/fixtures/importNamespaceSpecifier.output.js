@@ -4,9 +4,10 @@ import { legacyParse, legacyParseMap, convertTokens } from 'date-fns-upgrade'
 
 const dateIs = '2019-07-01'
 
+const someToken = 'MM-DD'
 const format = dateFnsOrNotFns.format(
   legacyParse('2019-07-01'),
-  convertTokens('MM-DD')
+  convertTokens(someToken)
 )
 const closestIndex = dateFnsOrNotFns.closestToIndex(
   legacyParse(new Date(2015, 8, 6)),

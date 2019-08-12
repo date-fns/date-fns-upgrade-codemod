@@ -1,13 +1,11 @@
 import { format as importedFormat, closestToIndex, addSeconds } from 'date-fns'
 
-import { legacyParse, legacyParseMap, convertTokens } from 'date-fns-upgrade'
+import { legacyParse, legacyParseMap } from 'date-fns-upgrade'
 
 const dateIs = '2019-07-01'
+const someToken = 'MM-DD'
 
-const format = importedFormat(
-  legacyParse('2019-07-01'),
-  convertTokens('MM-DD')
-)
+const formatInlineMod = importedFormat(legacyParse('2019-07-01'), "LL'-'dd")
 const closestIndex = closestToIndex(
   legacyParse(new Date(2015, 8, 6)),
   legacyParseMap([

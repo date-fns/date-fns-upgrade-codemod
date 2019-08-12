@@ -1,3 +1,5 @@
+import { NodePath } from "ast-types";
+
 export interface Names {
   names: string[]
 }
@@ -89,19 +91,29 @@ export interface CommonHelper {
 
 export interface JSDocInterface {
   [key: string]: CommonHelper[]
-  'Common Helper': CommonHelper[]
-  'Range Helper': CommonHelper[]
-  'Timestamp Helper': CommonHelper[]
-  'Millisecond Helper': CommonHelper[]
-  'Second Helpers': CommonHelper[]
-  'Minute Helper': CommonHelper[]
-  'Hour Helper': CommonHelper[]
-  'Day Helper': CommonHelper[]
-  'Weekday Helper': CommonHelper[]
-  'Week Helper': CommonHelper[]
-  'ISO Week Helper': CommonHelper[]
-  'Month Helper': CommonHelper[]
-  'Quarter Helper': CommonHelper[]
-  'Year Helper': CommonHelper[]
-  'ISO Week-Numbering Year Helper': CommonHelper[]
+}
+
+export type ImportSpecifier =
+  | {
+  importedName: string
+  importType: "default"
+}
+  | {
+  libraryName: string
+  importedName: string
+  importType: "named" | "module"
+}
+export type ImportDefinition = {
+  variableName?: string
+  source?: string
+  importedExport: {
+    name: string
+    isImportedAsCJS: boolean
+  }
+  kind: "value" | "type" | "typeof"
+  isDynamicImport: boolean
+  path: NodePath
+
+  remove(): void
+  fork?(options: { insert?: "before" | "after" }): void
 }

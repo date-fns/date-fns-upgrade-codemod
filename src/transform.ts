@@ -1,6 +1,6 @@
 import { camelCase } from 'change-case'
 import isEmpty from 'lodash.isempty'
-import { convertTokens } from './utils/convertTokens'
+import { v2 } from '@date-fns/upgrade'
 
 import { API, FileInfo, Literal, Options } from 'jscodeshift/src/core'
 import { CodeMap } from './utils/parse'
@@ -158,7 +158,7 @@ const dateFnsCodemod = (fileInfo: FileInfo, api: API, options: Options) => {
       argumentNode.type === 'Literal' &&
       typeof argumentNode.value === 'string'
     )
-      return j.literal(convertTokens(argumentNode.value))
+      return j.literal(v2.convertTokens(argumentNode.value))
 
     usedLegacyUpgrades[legacyHelperFunctionName] = true
 

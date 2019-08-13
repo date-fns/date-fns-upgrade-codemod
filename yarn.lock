@@ -732,6 +732,13 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@date-fns/upgrade@^1.0.0-beta.1":
+  version "1.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@date-fns/upgrade/-/upgrade-1.0.0-beta.1.tgz#95769869acc035936e5665b0ed91e1b2a7764f3d"
+  integrity sha512-XDZ2yDJbwDRNNwWDi91GN5LIwZCEIVCP/OBCJ+14Pj2p5mzuHRl4tFrQg0lhCXSd7eNKGFyDyJZ/eusR5SqY+A==
+  dependencies:
+    date-fns "^2.0.0-beta.4"
+
 "@jest/console@^24.7.1":
   version "24.7.1"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.7.1.tgz#32a9e42535a97aedfe037e725bd67e954b459545"
@@ -1707,6 +1714,11 @@ date-fns@^1.27.2:
   version "1.30.1"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.30.1.tgz#2e71bf0b119153dbb4cc4e88d9ea5acfb50dc05c"
   integrity sha512-hBSVCvSmWC+QypYObzwGOd9wqdDpOt+0wl0KbU+R+uuZBS1jN8VsD1ss3irQDknRj5NvxiTF6oj/nDRnN/UQNw==
+
+date-fns@^2.0.0-beta.4:
+  version "2.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.0.0-beta.4.tgz#3e1bf33a15da69481f81972c4a50aad762a81f2c"
+  integrity sha512-xekjYm7ZDBuzePM/GBodhi3hW3P8dd2RbuIOLBjet2E6EGFR82wHTTXCSGuDEoapqlDvsx88ymRsq85lbM7dDw==
 
 debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"

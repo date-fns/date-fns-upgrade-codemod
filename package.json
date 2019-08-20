@@ -1,34 +1,37 @@
 {
   "name": "date-fns-codemod",
   "version": "1.0.0",
-  "description": "date-fnn codemod 1.x -> 2.0",
-  "main": "index.ts",
+  "description": "date-fns codemod 1.x -> 2.0",
+  "main": "src/transform.ts",
   "author": "Deniss Kozickis",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "execa": "^2.0.4",
+    "globby": "^10.0.1",
+    "inquirer": "^6.5.1",
+    "jscodeshift": "^0.6.4",
+    "meow": "^5.0.0"
+  },
   "devDependencies": {
     "@date-fns/upgrade": "^1.0.0-beta.1",
+    "@types/execa": "^2.0.0",
+    "@types/inquirer": "^6.5.0",
     "@types/jest": "^24.0.15",
     "@types/jscodeshift": "^0.6.2",
     "@types/lodash.isempty": "^4.4.6",
+    "@types/meow": "^5.0.0",
     "@types/node": "^12.6.8",
     "change-case": "^3.1.0",
     "husky": "^3.0.2",
     "jest": "^24.8.0",
-    "jscodeshift": "^0.6.4",
     "lint-staged": "^9.2.1",
-    "lodash.isempty": "^4.4.0",
     "prettier": "^1.18.2",
     "transform-imports": "^2.1.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },
-  "engines": {
-    "node": ">=12"
-  },
   "scripts": {
-    "test": "jest",
-    "tsc": "tsc"
+    "test": "jest"
   },
   "husky": {
     "hooks": {
@@ -42,5 +45,8 @@
     "*.{js,jsx}": [
       "prettier"
     ]
+  },
+  "bin": {
+    "date-fns-codemod": "./bin/date-fns-codemod.js"
   }
 }

@@ -1,6 +1,7 @@
 import { camelCase } from 'change-case'
-import isEmpty from 'lodash.isempty'
 import { v2 } from '@date-fns/upgrade'
+import transformImports from "transform-imports";
+import * as functionData from "./data/functionData.json";
 
 import { API, FileInfo, Literal, Options } from 'jscodeshift/src/core'
 import { CodeMap } from './utils/parse'
@@ -17,30 +18,25 @@ import {
   VariableDeclaration
 } from 'ast-types/gen/nodes'
 import { Collection } from 'jscodeshift/src/Collection'
-import { ImportDefinition, ImportSpecifier } from './types'
-
-const transformImports = require('transform-imports')
-const functionData = require('./data/functionData.json') as CodeMap
+import { ImportSpecifier } from './types'
 
 const lastPath = (
   c: Collection<ImportDeclaration> | Collection<VariableDeclaration>
 ) => c.at(-1).paths()[0]
 
 const getParser = (options: Options) => {
-  const realOptions = isEmpty(options) ? undefined : options
-
   switch (options.parser) {
     case 'babylon':
-      return require('jscodeshift/parser/babylon')(realOptions)
+      return require('jscodeshift/parser/babylon')(options.parserConfig)
     case 'flow':
-      return require('jscodeshift/parser/flow')(realOptions)
+      return require('jscodeshift/parser/flow')(options.parserConfig)
     case 'ts':
-      return require('jscodeshift/parser/ts')(realOptions)
+      return require('jscodeshift/parser/ts')(options.parserConfig)
     case 'tsx':
-      return require('jscodeshift/parser/tsx')(realOptions)
+      return require('jscodeshift/parser/tsx')(options.parserConfig)
     case 'babel':
     default:
-      return require('jscodeshift/parser/babylon')(realOptions)
+      return require('jscodeshift/parser/babylon')(options.parserConfig)
   }
 }
 
@@ -73,7 +69,7 @@ const dateFnsCodemod = (fileInfo: FileInfo, api: API, options: Options) => {
    */
   const codeWithTransformedImports = transformImports(
     fileInfo.source,
-    (importDefs: ImportDefinition[]) => {
+    (importDefs) => {
       importDefs
         .filter(({ source }) => (source || '').includes('date-fns'))
         .filter(({ variableName }) => variableName !== undefined)
@@ -145,7 +141,7 @@ const dateFnsCodemod = (fileInfo: FileInfo, api: API, options: Options) => {
     argumentNode: ExpressionKind | SpreadElementKind | LiteralKind,
     argumentIndex: number
   ) => {
-    const functionCallData = functionData[libraryName]
+    const functionCallData = (functionData as CodeMap)[libraryName]
 
     if (!functionCallData) return argumentNode
 

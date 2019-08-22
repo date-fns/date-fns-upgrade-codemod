@@ -1,7 +1,7 @@
 import { camelCase } from 'change-case'
-import { v2 } from '@date-fns/upgrade'
-import transformImports from "transform-imports";
-import * as functionData from "./data/functionData.json";
+import { convertTokens } from '@date-fns/upgrade/v2'
+import transformImports from 'transform-imports'
+import * as functionData from './data/functionData.json'
 
 import { API, FileInfo, Literal, Options } from 'jscodeshift/src/core'
 import { CodeMap } from './utils/parse'
@@ -69,7 +69,7 @@ const dateFnsCodemod = (fileInfo: FileInfo, api: API, options: Options) => {
    */
   const codeWithTransformedImports = transformImports(
     fileInfo.source,
-    (importDefs) => {
+    importDefs => {
       importDefs
         .filter(({ source }) => (source || '').includes('date-fns'))
         .filter(({ variableName }) => variableName !== undefined)
@@ -154,7 +154,7 @@ const dateFnsCodemod = (fileInfo: FileInfo, api: API, options: Options) => {
       argumentNode.type === 'Literal' &&
       typeof argumentNode.value === 'string'
     )
-      return j.literal(v2.convertTokens(argumentNode.value))
+      return j.literal(convertTokens(argumentNode.value))
 
     usedLegacyUpgrades[legacyHelperFunctionName] = true
 
@@ -231,7 +231,7 @@ const dateFnsCodemod = (fileInfo: FileInfo, api: API, options: Options) => {
   })
 
   /**
-   * As a last step we add import of all `date-fns-upgrade` tools used
+   * As a last step we add import of all `@date-fns/upgrade` tools used
    */
   const usedLegacyUpgradesEntries = Object.entries(usedLegacyUpgrades).filter(
     ([_, value]) => value
@@ -270,7 +270,7 @@ const dateFnsCodemod = (fileInfo: FileInfo, api: API, options: Options) => {
           usedLegacyUpgrades.map(value =>
             j.importSpecifier(j.identifier(value))
           ),
-          j.stringLiteral('date-fns-upgrade')
+          j.stringLiteral('@date-fns/upgrade/v2')
         )
       )
     } else if (variableDeclarationCollection.size()) {
@@ -289,7 +289,7 @@ const dateFnsCodemod = (fileInfo: FileInfo, api: API, options: Options) => {
               })
             ),
             j.callExpression(j.identifier('require'), [
-              j.literal('date-fns-upgrade')
+              j.literal('@date-fns/upgrade/v2')
             ])
           )
         ])

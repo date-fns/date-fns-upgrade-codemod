@@ -1,9 +1,6 @@
 const { format, closestToIndex, addSeconds } = require('date-fns')
 
-const {
-  legacyParse,
-  legacyParseMap,
-} = require('date-fns-upgrade')
+const { legacyParse, legacyParseMap } = require('@date-fns/upgrade/v2')
 
 const dateIs = '2019-07-01'
 

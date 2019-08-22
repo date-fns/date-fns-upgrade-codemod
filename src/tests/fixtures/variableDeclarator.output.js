@@ -1,13 +1,10 @@
 const dateFns = require('date-fns')
 
-const { legacyParse, legacyParseMap } = require('date-fns-upgrade')
+const { legacyParse, legacyParseMap } = require('@date-fns/upgrade/v2')
 
 const dateIs = '2019-07-01'
 
-const formatMePlease = dateFns.format(
-  legacyParse('2019-07-01'),
-  "LL'-'dd"
-)
+const formatMePlease = dateFns.format(legacyParse('2019-07-01'), "LL'-'dd")
 const closestIndex = dateFns.closestToIndex(
   legacyParse(new Date(2015, 8, 6)),
   legacyParseMap([

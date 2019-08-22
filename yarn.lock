@@ -732,10 +732,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@date-fns/upgrade@^1.0.0-beta.1":
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@date-fns/upgrade/-/upgrade-1.0.0-beta.1.tgz#95769869acc035936e5665b0ed91e1b2a7764f3d"
-  integrity sha512-XDZ2yDJbwDRNNwWDi91GN5LIwZCEIVCP/OBCJ+14Pj2p5mzuHRl4tFrQg0lhCXSd7eNKGFyDyJZ/eusR5SqY+A==
+"@date-fns/upgrade@^1.0.0-beta.2":
+  version "1.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@date-fns/upgrade/-/upgrade-1.0.0-beta.2.tgz#9bfe69f9f91ef77b25ef3819ce3c26bea3817890"
+  integrity sha512-uB2gCZCKsPN59MFE5Xldi53fvr0LIsmSKUlcRobWnCh84BNJdONAcdyVOXZprNnUvOx9SW6jc6QP+Nt/SmPDSA==
   dependencies:
     date-fns "^2.0.0-beta.4"
 

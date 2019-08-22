@@ -1,6 +1,10 @@
 import * as dateFnsOrNotFns from 'date-fns'
 
-import { legacyParse, legacyParseMap, convertTokens } from 'date-fns-upgrade'
+import {
+  legacyParse,
+  legacyParseMap,
+  convertTokens
+} from '@date-fns/upgrade/v2'
 
 const dateIs = '2019-07-01'
 

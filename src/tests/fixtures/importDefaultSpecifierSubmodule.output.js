@@ -3,11 +3,15 @@ import closestToIndex from 'date-fns/closestToIndex'
 import addSeconds from 'date-fns/addSeconds'
 import getThatDay from 'date-fns/getISODay'
 
-import { legacyParse, legacyParseMap, convertTokens } from 'date-fns-upgrade'
+import {
+  legacyParse,
+  legacyParseMap,
+  convertTokens
+} from '@date-fns/upgrade/v2'
 
 const dateIs = '2019-07-01'
 
-const someToken = 'MM-DD';
+const someToken = 'MM-DD'
 const format = importedFormat(
   legacyParse('2019-07-01'),
   convertTokens(someToken)

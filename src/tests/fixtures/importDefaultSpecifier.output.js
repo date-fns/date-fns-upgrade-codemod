@@ -1,6 +1,6 @@
 import dateFns from 'date-fns'
 
-import { legacyParse, legacyParseMap } from 'date-fns-upgrade'
+import { legacyParse, legacyParseMap } from '@date-fns/upgrade/v2'
 
 const dateIs = '2019-07-01'
 

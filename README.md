@@ -6,7 +6,7 @@
   * `path` files or directory to transform
   * `--dry` option for a dry-run
   * `--print` option to print the output for comparison
-  
+
 #### Example
 
 ```sh
@@ -15,15 +15,15 @@ npx date-fns-codemod src/
 
 ### Codemods applied
 
-*N.B.* At the moment this codemod applies fixes ONLY for first 3 points of 
+*N.B.* At the moment this codemod applies fixes ONLY for first 3 points of
 2.0 date-fns [CHANGELOG](https://github.com/date-fns/date-fns/blob/master/CdHANGELOG.md#changed)\
 You'll have to take care of all the other breaking changes.
 
-Codemod imports required tools from `date-fns-upgrade` and wraps
+Codemod imports required tools from `@date-fns/upgrade` and wraps
 `date-fns` function call arguments accordingly.
 
 ```diff
-+import { legacyParse, legacyParseMap, convertTokens } from 'date-fns-upgrade'
++import { legacyParse, legacyParseMap, convertTokens } from '@date-fns/upgrade/v2'
 
  const dateIs = '2019-07-01'
 

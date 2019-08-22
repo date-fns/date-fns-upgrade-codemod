@@ -2,7 +2,7 @@
 
 ### Usage
 
-`npx date-fns-codemod <path> [...options]`
+`npx @date-fns/upgrade-codemod <path> [...options]`
   * `path` files or directory to transform
   * `--dry` option for a dry-run
   * `--print` option to print the output for comparison

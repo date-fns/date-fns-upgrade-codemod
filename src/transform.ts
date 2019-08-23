@@ -3,7 +3,7 @@ import { convertTokens } from '@date-fns/upgrade/v2'
 import transformImports from 'transform-imports'
 import * as functionData from './data/functionData.json'
 
-import { API, FileInfo, Literal, Options } from 'jscodeshift/src/core'
+import { API, FileInfo, Options } from 'jscodeshift/src/core'
 import { CodeMap } from './utils/parse'
 import {
   ExpressionKind,

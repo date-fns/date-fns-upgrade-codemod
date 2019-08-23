@@ -10,7 +10,7 @@
 #### Example
 
 ```sh
-npx date-fns-codemod src/
+npx @date-fns/upgrade-codemod src/
 ```
 
 ### Codemods applied

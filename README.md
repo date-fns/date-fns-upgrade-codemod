@@ -10,13 +10,13 @@
 #### Example
 
 ```sh
-npx date-fns-codemod src/
+npx @date-fns/upgrade-codemod src/
 ```
 
 ### Codemods applied
 
 *N.B.* At the moment this codemod applies fixes ONLY for first 3 points of
-2.0 date-fns [CHANGELOG](https://github.com/date-fns/date-fns/blob/master/CdHANGELOG.md#changed)\
+2.0 date-fns [CHANGELOG](https://github.com/date-fns/date-fns/blob/master/CHANGELOG.md#changed)\
 You'll have to take care of all the other breaking changes.
 
 Codemod imports required tools from `@date-fns/upgrade` and wraps

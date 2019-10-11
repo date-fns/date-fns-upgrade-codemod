@@ -62,7 +62,7 @@ function runTransform({ files, flags, parser }) {
 const PARSER_INQUIRER_CHOICES = [
   {
     name: 'JavaScript',
-    value: 'babel'
+    value: 'babylon'
   },
   {
     name: 'JavaScript with Flow',
@@ -95,7 +95,7 @@ function run() {
 
     Options
       --dry          Dry run (no changes are made to files)
-      --print        Print transformed files to your terminal      
+      --print        Print transformed files to your terminal
 
       --jscodeshift  (Advanced) Pass options directly to jscodeshift
     `
@@ -124,7 +124,7 @@ function run() {
         type: 'list',
         name: 'parser',
         message: 'Which dialect of JavaScript do you use?',
-        default: 'babel',
+        default: 'babylon',
         when: !cli.flags.parser,
         pageSize: PARSER_INQUIRER_CHOICES.length,
         choices: PARSER_INQUIRER_CHOICES

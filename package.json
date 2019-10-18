@@ -6,15 +6,16 @@
   "author": "Deniss Kozickis",
   "license": "MIT",
   "dependencies": {
+    "@date-fns/upgrade": "^1.0.1",
     "change-case": "^3.1.0",
-    "execa": "^2.0.4",
+    "execa": "^2.1.0",
     "globby": "^10.0.1",
     "inquirer": "^6.5.1",
     "jscodeshift": "^0.6.4",
-    "meow": "^5.0.0"
+    "meow": "^5.0.0",
+    "transform-imports": "^2.1.0"
   },
   "devDependencies": {
-    "@date-fns/upgrade": "^1.0.1",
     "@types/execa": "^2.0.0",
     "@types/inquirer": "^6.5.0",
     "@types/jest": "^24.0.15",
@@ -26,7 +27,6 @@
     "jest": "^24.8.0",
     "lint-staged": "^9.2.1",
     "prettier": "^1.18.2",
-    "transform-imports": "^2.1.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },

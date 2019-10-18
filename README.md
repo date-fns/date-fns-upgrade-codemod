@@ -19,7 +19,8 @@ npx @date-fns/upgrade-codemod src/
 2.0 date-fns [CHANGELOG](https://github.com/date-fns/date-fns/blob/master/CHANGELOG.md#changed)\
 You'll have to take care of all the other breaking changes.
 
-Codemod imports required tools from `@date-fns/upgrade` and wraps
+Codemod imports required tools from `@date-fns/upgrade`
+(you will have to add it as dependency in your project if required) and wraps
 `date-fns` function call arguments accordingly.
 
 ```diff
